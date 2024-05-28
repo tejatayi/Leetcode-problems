@@ -17,7 +17,7 @@ class Problem3{
             x.clear();
             count=0;
             char tem= s.charAt(i);
-            i--;
+            i--;                // this step and the loop is to go back to the duplicate position lets say in this case its "b" going back the to 1st "b" and calculating it again;
             while(s.charAt(i)!=tem){
                 i--;
             }
