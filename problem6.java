@@ -64,7 +64,6 @@ class Problem6{
     public static void main(String[] args)
     {
         
-        int [] n2= {0,0,0,0,0};
 
        System.err.println(convert("paypalishiring",3)); 
        
