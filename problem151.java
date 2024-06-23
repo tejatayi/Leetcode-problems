@@ -23,7 +23,7 @@ class Problem151 {
     
     for(int i=0;i<ans.length()-1;i++)
     {
-        fin+=ans.charAt(i);
+        fin+=ans.charAt(i);             //removing the last space 
     }
     
 //      System.out.println('"'+fin+'"');       
