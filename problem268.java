@@ -1,7 +1,6 @@
 // 268. Missing Number
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 class Problem268{
 
