@@ -11,7 +11,7 @@ class Problem424{
         
         int l=0,r=0;
         int ans=1;
-        Map<Character,Integer> map = new HashMap<>() ;
+        Map<Character,Integer> map = new HashMap<>();
         map.put(s.charAt(r), 1);
         r++;
         while(r<s.length())
@@ -32,9 +32,6 @@ class Problem424{
             else
             ans=len_subarray;
             r++;
-
-
-
         }
 
         return ans;
