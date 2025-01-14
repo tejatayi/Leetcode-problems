@@ -27,7 +27,7 @@ class Problem605{
         }
 
        // System.out.println(ans);
-        if(ans == n)
+        if(ans >= n)
         return true;
 
         else 
