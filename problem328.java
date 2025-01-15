@@ -1,7 +1,6 @@
 //328. Odd Even Linked List
 
 
-import java.util.*;
 
 class ListNode {
     int val;
