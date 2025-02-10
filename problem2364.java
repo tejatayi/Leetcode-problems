@@ -19,12 +19,12 @@ public class problem2364 {
             map.merge(tem, 1, Integer::sum);
     
         }
-        long ans = ((len*(len-1))/2);
+        long ans = (((long)len*(len-1))/2);
         
 
         for(int m : map.values())
         {
-            ans-=(m*(m-1))/2;
+            ans-=((long)m*(m-1))/2;
         }
 
        
